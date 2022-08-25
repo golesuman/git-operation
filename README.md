@@ -19,8 +19,8 @@
 3. git stash apply - stash changes back and it preserves the stash in the stash list
 4. git stash pop - stash changes back but it doesn't keep the stash and deletes one by one once it gets executed
 
-## Squash - Combining difference commits to the one single commit 
-### Steps:
+### Squash - Combining difference commits to the one single commit 
+#### Steps:
 1. git rebase -i HEAD~N where N is the no of recent commits and 'i' is interactive mode
 2. In editor change the mode to squash from another 
 3. save and exit 
